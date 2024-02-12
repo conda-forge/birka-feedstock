@@ -66,6 +66,8 @@ outputs:
       run:
         - birka {{ version }}.*
     test:
+      requires:
+        - pyside6
       imports:
         - birka
       commands:
